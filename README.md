@@ -16,9 +16,9 @@ There are 9 variables in the dataset, the start of observations is September 7, 
 
 2.  retailer: code of the retailer, \"atb\" is [www.atbmarket.com](http://www.atbmarket.com) [currently it is the only source of prices]
 
-3.  [web.cat.name](http://web.cat.name): part of the actual URL describing the source category for data collection.
+3.  web.cat.name: part of the actual URL describing the source category for data collection.
 
-4.  [prod.group](http://prod.group): 47 product groups containing all the particular goods. These groups are defined by a resolution of the Cabinet of Minisers of Ukraine for working population (link to the doc\'s section: [[https://zakon.rada.gov.ua/laws/show/780-2016-%D0%BF#n16]{.underline}](https://zakon.rada.gov.ua/laws/show/780-2016-%D0%BF#n16)).
+4.  prod.group: 47 product groups containing all the particular goods. These groups are defined by a resolution of the Cabinet of Minisers of Ukraine for working population (link to the doc\'s section: [[https://zakon.rada.gov.ua/laws/show/780-2016-%D0%BF#n16]{.underline}](https://zakon.rada.gov.ua/laws/show/780-2016-%D0%BF#n16)).
 
 5.  desc: detailed descripiton of a good (in Ukrainian), incl. brand (if available), weight and other product details.
 
@@ -38,6 +38,6 @@ I have slightly changed the numbers: for the fermented dairy products the docume
 
 **Variables:**
 
-1.  [prod.group](http://prod.group): a product group for which a norm of consumption is defined. Rows here are identical to the rows of [prod.group](http://prod.group) variable from the ua-foodset-prices.csv.
+1.  prod.group: a product group for which a norm of consumption is defined. Rows here are identical to the rows of prod.group variable from the ua-foodset-prices.csv.
 
 2.  food.norms: actual consumption norms for the subsistence level. Norms are either in liters/ kilograms depending on the product; eggs are in pieces, it is the only exception.
