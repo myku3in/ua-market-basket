@@ -1,6 +1,6 @@
 # ua-market-basket
 
-This project aims for regular data collection of the prices of goods\' and services\' that constitute market basket in Ukraine.
+This project aims for regular data collection of the prices of goods and services that constitute market basket in Ukraine.
 
 Currently available dataset captures weekly prices and a bunch of other variables for the food products that constitute a \"food set\" of the consumer basket. As a whole, consumer basket in Ukraine consists of three parts: a food set, non-food items like clothes and devices, and basic services like transportation or electricity. In its turn, the cost of consumer basket is a base for calculation of the living (subsistence) minimum. The living minimum is a social standard in Ukraine; the state grants every citizen to have this sum of money at their disposal. As for Jan 1, 2023, for a person capable of working the official amount is 2684 UAH. The problem is that this sum is not enough for addressing the basic needs according to the norms of consumption which the state has itself declared . So, one of the possible usage of the presented data is to track the gap between official amount of living minimum and actual market cost of the consumer basket.
 
